@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <link rel="icon" type="image/jpg" href="/assets/icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="click-heart">
+            <h2>Click The Heart To Open</h2>
+        </div>
+        
+        <div class="envelope">
+            <div class="flap top-flap"></div>
+            <div class="flap right-flap"></div>
+            <div class="heart-seal">❤</div>
+        </div>
+        
+        <div class="music-card">
+            <div class="song-info">
+                <img src="./assets/3-moonu-2011.webp" alt="Album Cover" class="album-cover">
+                <div class="song-details">
+                    <h3>Kannazhaga</h3>
+                    <p>3</p>
+                </div>
+            </div>
+            <audio id="audio" src="./assets/Kannazhaga.mp3"></audio>
+            <div class="controls">
+                <button id="prevBtn" class="control-btn">⏮</button>
+                <button id="playBtn" class="control-btn">▶</button>
+                <button id="nextBtn" class="control-btn">⏭</button>
+            </div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="timer">
+                <span id="currentTime">0:00</span>
+                <span>/</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+        
+        <div class="memories-section">
+            <h2>Our Memories Together</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="./pics/IMG-20250302-WA0001.jpg" alt="Memory 1"></div>
+                <div class="gallery-item"><img src="./pics/IMG-20250302-WA0003.jpg" alt="Memory 2"></div>
+                <div class="gallery-item"><img src="./pics/IMG-20250302-WA0004.jpg" alt="Memory 3"></div>
+                <div class="gallery-item"><img src="./pics/IMG-20250302-WA0002.jpg" alt="Memory 4"></div>
+                <div class="gallery-item"><img src="./pics/IMG-20250302-WA0007.jpg" alt="Memory 5"></div>
+                <div class="gallery-item"><img src="./pics/IMG-20250302-WA0008.jpg" alt="Memory 6"></div>
+                <div class="gallery-item"><img src="./pics/IMG-20250302-WA0014.jpg" alt="Memory 7"></div>
+                <div class="gallery-item"><img src="./pics/IMG-20250302-WA0012.jpg" alt="Memory 8"></div>
+                <div class="gallery-item"><img src="./pics/IMG-20250302-WA0006.jpg" alt="Memory 9"></div>
+                <div class="gallery-item"><img src="./pics/IMG-20250302-WA0005.jpg" alt="Memory 10"></div>
+                <div class="gallery-item"><img src="./pics/IMG-20250302-WA0006.jpg" alt="Memory 11"></div>
+                <div class="gallery-item"><img src="./pics/IMG-20250302-WA0009.jpg" alt="Memory 12"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay">
+        <div class="modal-letter">
+            <button class="close-modal">×</button>
+            <div class="letter">
+                <h1>Logeshema</h1>
+                <div class="letter-content">
+                    <p style="text-align: justify;">My dearest hema,</p>
+                    <p style="text-align: justify;">From the moment I met you, my life has been filled with joy and happiness. Your smile lights up my world, and your presence brings me peace. I cherish every moment we spend together and look forward to creating many more beautiful memories with you.</p>
+                    <p style="text-align: justify;">You are my confidant, my partner, and my best friend. Your kindness and compassion inspire me every day. I am grateful for your unwavering support and love. Together, we can overcome any obstacle and achieve our dreams.</p>
+                    <p style="text-align: justify;">I promise to always be there for you, to support you, and to love you unconditionally. You are my everything, and I am so lucky to have you in my life.</p>
+                    <p style="text-align: justify;">முடிந்து விட்டதாக நினைத்த என் வாழ்வின் தொடக்கம் நீயாக</p>
+                    <p class="signature">With all my love,<br>logesh</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
